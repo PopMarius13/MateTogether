@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/dundal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TeorieActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <Button
+            android:id="@+id/clasa9"
+            android:layout_width="240dp"
+            android:layout_height="70dp"
+            android:background="@drawable/rotunjire_button"
+            android:text="CLASA IX"
+            android:textColor="@color/colorFundal"
+            android:fontFamily="serif"
+            android:textSize="40sp"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/clasa10"
+            android:layout_width="240dp"
+            android:layout_height="70dp"
+            android:background="@drawable/rotunjire_button"
+            android:text="clasa x"
+            android:fontFamily="serif"
+            android:layout_marginTop="45dp"
+            android:textColor="@color/colorFundal"
+            android:textSize="40sp"
+            tools:ignore="HardcodedText" />
+        <Button
+            android:layout_width="240dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="45dp"
+            android:textColor="@color/colorFundal"
+            android:textSize="40sp"
+            android:text="clasa xi"
+            android:fontFamily="serif"
+            android:id="@+id/clasa11"
+            android:background="@drawable/rotunjire_button"
+            tools:ignore="HardcodedText" />
+        <Button
+            android:layout_width="240dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="45dp"
+            android:textColor="@color/colorFundal"
+            android:textSize="40sp"
+            android:text="clasa xii"
+            android:id="@+id/clasa12"
+            android:fontFamily="serif"
+            android:background="@drawable/rotunjire_button"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-9513540471540461/1729220423">
+    </com.google.android.gms.ads.AdView>
+</RelativeLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.marius.atestat">
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+    <dist:module dist:instant="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/logo"
+        android:roundIcon="@mipmap/logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Grafice"
+            android:label="@string/grafice"
+            ></activity>
+        <activity android:name=".determinant"
+            android:label="@string/determinant"
+            />
+        <activity android:name=".Ec_gr_2"
+            android:label="@string/ecua_ie_de_gradul_2"
+            />
+        <activity android:name=".Aplicatii"
+            android:label="@string/aplicati"
+            />
+        <activity
+            android:name=".TimpLiberActivity"
+            android:label="Timp Liber" />
+        <activity
+            android:name=".PClasa9"
+            android:label="Test"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TClasa12"
+            android:label="Teorie clasa a XII-a" />
+        <activity
+            android:name=".TClasa11"
+            android:label="Teorie clasa a XI-a" />
+        <activity
+            android:name=".TClasa10"
+            android:label="Teorie clasa a X-a" />
+        <activity
+            android:name=".TClasa9"
+            android:label="Teorie clasa a IX-a" />
+        <activity
+            android:name=".ProblemeActivity"
+            android:label="Teste"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TeorieActivity"
+            android:label="Teorie"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:label="Mate\nTogether"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-9513540471540461~7846055766"/>
+    </application>
+
+</manifest>

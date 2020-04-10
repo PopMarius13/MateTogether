@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Bac Mate</string>
+    <string name="benner">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="desc">Image</string>
+    <string name="Text"><u>Cărți de citit:</u>\n\n  Este dumnezeu matematician?\n  Marea teoremă a lui Fermat\n  Dă oare dumnezeu cu zarul?\n  Secțiunea de aur.Povestea lui phi\n  Partida neterminată\n\n\n <u>Filme de vizionat:</u>\n\n  A beautiful mind\n  Good Will Hunting\n  Pi\n  The imitation game\n  The man who knew infinity\n  Stand and Deliver\n\n</string>
+    <string name="clasa_ix">Clasa IX</string>
+    <string name="cla">Cla</string>
+    <string name="todo">TODO</string>
+    <string name="logo">Mate Together</string>
+    <string name="grafice">Grafice</string>
+    <string name="ajutor">Aplicatii</string>
+    <string name="Clasa9">Clasa IX</string>
+    <string name="Clasa10">Clasa X</string>
+    <string name="Clasa11">Clasa XI</string>
+    <string name="Clasa12">Clasa XII</string>
+    <string name="_0_10">0/15</string>
+    <string name="not_1">Nota:0</string>
+    <string name="problema_1_10">Problema 1/10</string>
+    <string name="_03_00">03:00</string>
+    <string name="a">A</string>
+    <string name="confirm">Confirm</string>
+    <string name="timp">Timp liber</string>
+    <string name="dificultate">Dificultate:</string>
+    <string name="todo1" />
+    <string name="alege_dificultatea" />
+    <string name="ecua_ie_de_gradul_2">Ecuație de gradul 2</string>
+    <string name="determinant">Determinant</string>
+    <string name="a1">a</string>
+    <string name="b">b</string>
+    <string name="c">c</string>
+    <string name="d">d</string>
+    <string name="e">e</string>
+    <string name="f">f</string>
+    <string name="g">g</string>
+    <string name="h">h</string>
+    <string name="i">i</string>
+    <string name="calculare">Calculare</string>
+    <string name="raspuns">Raspuns:</string>
+    <string name="aplicati">Aplicații</string>
+    <string name="x1x2">∆= ?</string>
+    <string name="x_2">X^2 +</string>
+    <string name="x">X +</string>
+    <string name="x1">x1= ?</string>
+    <string name="x2">x2= ?</string>
+
+
+
+</resources>

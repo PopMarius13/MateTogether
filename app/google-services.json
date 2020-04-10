@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "55872249004",
+    "firebase_url": "https://matetogether.firebaseio.com",
+    "project_id": "matetogether",
+    "storage_bucket": "matetogether.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:55872249004:android:52301f48a79e0a1c",
+        "android_client_info": {
+          "package_name": "com.marius.atestat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "55872249004-9ctmadhojjp8r7q2qmrjvolulm1h3riq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.marius.atestat",
+            "certificate_hash": "84073574b6e14901221cab3435bd40ef927ccc5a"
+          }
+        },
+        {
+          "client_id": "55872249004-k2k84sfujjlkke5ukcu517u2ium2g206.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnQcw2qje_oMXhWwbLQ9XbXpbggbeKeBw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "55872249004-k2k84sfujjlkke5ukcu517u2ium2g206.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

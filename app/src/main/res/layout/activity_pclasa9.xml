@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundaltest"
+    android:padding="15dp"
+    tools:context=".PClasa9">
+
+    <TextView
+        android:id="@+id/nota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/not_1"
+        android:textColor="@color/colorscris"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:id="@+id/nrproblema"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/problema_1_10"
+        android:textSize="15sp"
+        android:textColor="@color/colorscris"
+        android:layout_below="@+id/nota" />
+
+    <TextView
+        android:id="@+id/text_dificultate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dificultate"
+        android:textSize="15sp"
+        android:textColor="@color/colorscris"
+        android:layout_below="@+id/nrproblema" />
+
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:text="@string/_03_00"
+        android:textColor="@color/colorscris"
+        android:layout_marginStart="80dp"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/nrproblema"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:layout_above="@+id/radiogroup"
+        android:layout_below="@+id/text_dificultate"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"
+        >
+    <TextView
+        android:id="@+id/intrebare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Text"
+        android:textSize="25sp"
+        android:textColor="@color/colorscris"
+        android:textAlignment="center"
+        />
+    </ScrollView>
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        >
+    <RadioButton
+        android:id="@+id/A"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="@string/a"
+        />
+
+    <RadioButton
+        android:id="@+id/B"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/a"
+        android:textSize="25sp"
+        android:layout_marginTop="30dp"
+        />
+
+    <RadioButton
+        android:id="@+id/C"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/a"
+        android:textSize="25sp"
+        android:layout_marginTop="30dp"
+        />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/confirm"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radiogroup"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/confirm"
+        android:textColor="@color/colorFundal"
+        android:fontFamily="serif"
+        android:textSize="25sp"
+        android:background="@drawable/buttonquiz"
+        />
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-9513540471540461/2927404022">
+    </com.google.android.gms.ads.AdView>
+</RelativeLayout>

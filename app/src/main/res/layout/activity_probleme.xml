@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dundal"
+    tools:context=".ProblemeActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/scor9"
+            android:textSize="45sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorscor"
+            android:text="@string/_0_10"
+            />
+
+        <Button
+            android:id="@+id/Pclasa9"
+            android:layout_width="320dp"
+            android:layout_height="90dp"
+            android:background="@drawable/rotunjire_button"
+            android:text="Start test"
+            android:layout_marginTop="50dp"
+            android:textColor="@color/colorFundal"
+            android:textSize="45sp"
+            android:fontFamily="serif"
+            tools:ignore="HardcodedText"
+            />
+
+        <Spinner
+            android:id="@+id/spinner_dificultate"
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:popupBackground="@color/colorFundalQuiz"
+            android:backgroundTint="@color/colorPrimaryDark"
+            />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginBottom="40dp"
+            app:srcCompat="@drawable/greu1"
+            android:contentDescription="@string/todo1" />
+
+    </LinearLayout>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-9513540471540461/2927404022">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>
